@@ -43,9 +43,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Maven
 - Apk Calculadora
 
-## Clonar repositório
-
-Clone o repositório
+## Clonar o repositório
 
 ```bash
 git clone https://github.com/deniscoelho-js/automation-appium-calc.git
