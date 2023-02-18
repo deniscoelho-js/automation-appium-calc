@@ -13,14 +13,7 @@
 ## Cenários de teste:
 
 - Realizar cálculos básicos, como adição, subtração, multiplicação e divisão.
-    <h1 align="center" width = "30%">
 ![basico](https://user-images.githubusercontent.com/83840866/219826049-b3f6c2cf-98ff-49f6-b1c3-9d56c44d5648.gif)
-    </h1>
-    
-    <h1 align="center">
-    <img src="resource/basico.gif" width="50%">
-     </h1>
-
 - Realizar cálculos com números decimais.
 - Verificar a precisão dos resultados dos cálculos.
 - Verificar se o aplicativo é capaz de realizar cálculos complexos, como por exemplo, raiz quadrada e potenciação.
