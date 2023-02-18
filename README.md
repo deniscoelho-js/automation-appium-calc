@@ -13,7 +13,7 @@
 ## Cenários de teste:
 
 - Realizar cálculos básicos, como adição, subtração, multiplicação e divisão.
-<br>
+</br>
 ![basico](https://user-images.githubusercontent.com/83840866/219826049-b3f6c2cf-98ff-49f6-b1c3-9d56c44d5648.gif)
 - Realizar cálculos com números decimais.
 - Verificar a precisão dos resultados dos cálculos.
