@@ -1,20 +1,16 @@
-package calculosBasicos;
+package atualizacao;
 
 import driverFactory.DriverFactory;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
-public class CalculosBasicosTest {
-
+public class Atualizacao {
 
     public AndroidDriver driver;
     @Before
@@ -97,4 +93,7 @@ public class CalculosBasicosTest {
 
         clear.click();
     }
-}
+
+
+    }
+
