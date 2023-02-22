@@ -3,8 +3,14 @@ package tela;
 import driverFactory.DriverFactory;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import org.apache.commons.io.FileUtils;
 import org.junit.Before;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 public class CalculadoraTela {
@@ -38,6 +44,18 @@ public class CalculadoraTela {
     private CalculadoraTela tocarBotaoLimpar(){
         limpar.click();
         return this;
+    }
+
+    private CalculadoraTela screenShot(){
+        try {
+            File imagem = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(imagem, new File("target/screenshots/imagem.png"));
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return null;
     }
 
     private CalculadoraTela somarDoisValores(){
